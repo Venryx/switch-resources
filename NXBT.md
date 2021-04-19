@@ -5,7 +5,7 @@ Context:
 * The developers of the apps began research on what changes are needed to restore functionality. Main threads: [joycontrol issue](https://github.com/mart1nro/joycontrol/issues/104), [joycontrol fork issue](https://github.com/Poohl/joycontrol/issues/3), [NXBT issue](https://github.com/Brikwerk/nxbt/issues/18), [JoyCon Droid issue](https://github.com/YouTubePlays/JoyConDroid/issues/57), [JoyCon Droid Discord](https://discord.gg/Tn9CudzQcZ)
 * Some success was achieved for [joycontrol](https://github.com/Poohl/joycontrol/issues/3#issuecomment-821082464) and [NXBT](https://github.com/Brikwerk/nxbt/issues/18#issuecomment-817268531). (As of now, not for the Android apps, since the Android API [may not offer the level of control required to fix the issue](./Archives/JoyConDroid_DiscordMessages.md#android-bluetooth-issue-hid-profilesservices).)
 * I tried the patched versions of both joycontrol and NXBT, but could only get the NXBT version working. The below are the steps that worked for me. (see my [initial post here](https://github.com/Brikwerk/nxbt/issues/18#issuecomment-822151271))
-* Note: NXBT only supports the "simulated/emulated pro controller" functionality, **not the Amiibo-related functions**.
+* **Note: NXBT only supports the "simulated/emulated pro controller" functionality, not the Amiibo-related functions**.
 
 Resources:
 * Virtual-box setup was based mainly on: https://gist.github.com/colemickens/b08d1a339f4483c6b3c08e739d6cf5d0 (and [this video](https://www.youtube.com/watch?v=zvVNwrseZhg))

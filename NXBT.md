@@ -18,7 +18,7 @@ Steps:
 	4.1) Press the "New" button in the VirtualBox toolbar.  
 	4.2) Configure the VM to have the values seen in [the video, starting at 6:07](https://youtu.be/zvVNwrseZhg?t=247).    
 	4.3) [Optional] Set the VM's Settings->System->Processor->Processor(s) value to 2 or higher. (enables significantly faster VM startup)  
-5) Install Xubuntu in the virtual machine, then restart the VM.  
+5) Install XUbuntu in the virtual machine, then restart the VM.  
 	5.1) Follow the steps shown in [the video, starting at 7:10](https://youtu.be/zvVNwrseZhg?t=430).  
 	5.2) You can ignore the "Incomplete language support" message on completion. (I did, and saw no negative side-effects)  
 6) Install guest additions tools (enables clipboard sharing), then restart VM. (based on [this article](https://linuxize.com/post/how-to-install-virtualbox-guest-additions-in-ubuntu))  

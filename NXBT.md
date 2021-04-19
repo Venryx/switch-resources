@@ -28,7 +28,7 @@ sudo pip3 install hid aioconsole crc8 dbus-python
 9) Mark your Bluetooth adapter to be passed through to the Linux VM: mark/check Devices->USB->YOUR_BLUETOOTH_ADAPTER. (I use the [ZEXMTE Bluetooth dongle](https://smile.amazon.com/gp/product/B0775YF36R), which shows up as "Cambridge Silicon Radio, Ltd CSR 8510 A10".)
 10) Install the v12 branch of NXBT (needed for Switch v12+): `sudo pip3 install git+http://github.com/Brikwerk/nxbt.git@abb966d438be79678b1b23579b06517995246618`
 11) Run NXBT: `sudo nxbt tui` (`sudo nxbt webapp` also works, but its connection process appears more finicky)
-12) Ensure that the Bluetooth pair popup shows up, by pressing XUbuntu's Bluetooth dropdown, pressing "Set up new device", then pressing Cancel; this appears to "kickstart" the bluetooth pairing process, for cases where it gets stuck.
+12) If the Bluetooth pairing popup (at top-right of screen) does not show up after several seconds, try opening XUbuntu's Bluetooth dropdown, pressing "Set up new device", then pressing Cancel; this appears to "kickstart" the bluetooth pairing process, for cases where it gets stuck.
 13) Press "Pair" in the popup that shows at the top right of the screen. The simulated pro controller should show up in the Switch controller list. (if not, wait for the next pairing popup, then press Pair again)
 14) Connect any other desired controllers. (I was only able to connect 1 joycon; any more and the simulated controller disconnects as soon as you leave the change-grip-order page.)
 15) Wait ~8 seconds, then press A to close the page. (the wait seems to improve the connection's chance of persisting)

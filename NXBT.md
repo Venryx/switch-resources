@@ -18,11 +18,11 @@ Steps:
 4) Create a new virtual machine for XUbuntu.  
 	4.1) Press the "New" button in the VirtualBox toolbar.  
 	4.2) Configure the VM to have the values seen in [the video, starting at 6:07](https://youtu.be/zvVNwrseZhg?t=247).    
-	4.3) [Optional] Set the VM's Settings->System->Processor->Processor(s) value to 2 or higher. (enables significantly faster VM startup)  
+	4.3) [Opt] Set the VM's Settings->System->Processor->Processor(s) value to 2 or higher. (enables significantly faster VM startup)  
 5) Install XUbuntu in the virtual machine, then restart the VM.  
 	5.1) Follow the steps shown in [the video, starting at 7:10](https://youtu.be/zvVNwrseZhg?t=430).  
 	* You can ignore the "Incomplete language support" message on completion. (I did, and saw no negative side-effects)  
-6) Install guest additions tools (enables clipboard sharing), then restart VM. (based on [this article](https://linuxize.com/post/how-to-install-virtualbox-guest-additions-in-ubuntu))  
+6) [Opt] Install guest additions tools (enables clipboard sharing), then restart VM. (based on [this article](https://linuxize.com/post/how-to-install-virtualbox-guest-additions-in-ubuntu))  
 	6.1) From VirtualBox menu bar, click Devices -> “Insert Guest Additions CD Image”.  
 	6.2) Double-click the "VBox_GAs_6.1.18" shortcut on the desktop.  
 	6.3) Right click the white background in the file explorer, and press "Open Terminal Here".  
@@ -30,8 +30,8 @@ Steps:
 	6.5) Run: `sudo apt update`  
 	6.6) Run: `sudo apt install build-essential dkms linux-headers-$(uname -r)`  
 	6.7) Run: `sudo sh ./VBoxLinuxAdditions.run --nox11`  
-6.8) Reboot the VM. (manually, or from terminal: `sudo shutdown -r now`)  
-7) Enable clipboard sharing: Devices->Shared Clipboard->Host To Guest (makes future steps easier)
+	6.8) Reboot the VM. (manually, or from terminal: `sudo shutdown -r now`)  
+7) [Opt] Enable clipboard sharing: Devices->Shared Clipboard->Host To Guest (makes future steps easier)
 8) This is probably not necessary, but in my case I ran these commands in the VM terminal (to match with the colemickens guide), one line at a time:
 ```
 sudo apt-get update -qy

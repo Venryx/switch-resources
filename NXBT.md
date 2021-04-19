@@ -32,4 +32,4 @@ sudo pip3 install hid aioconsole crc8 dbus-python
 14) Connect any other desired controllers. (I was only able to connect 1 joycon; any more and the simulated controller disconnects as soon as you leave the change-grip-order page.)
 15) Wait ~8 seconds, then press A to close the page. (the wait seems to improve the connection's chance of persisting)
 16) If the simulated controller disconnects, open the change-grip-order page and try again. (success rate was ~50% for me, with the waiting)
-17) Done! With the NXBT terminal focused (ie. last thing clicked on), pressing keys on your keyboard should trigger button presses on your switch. If your simulated controller's connection persist to this point, it should continue to work even when launching games. (I tested it in Smash Bros Ultimate, plenty of times, without any disconnects.)
+17) Done! With the NXBT terminal focused (ie. last thing clicked on), pressing keys on your keyboard should trigger button presses on your switch. If your simulated controller's connection persists to this point, it should continue to work even in games. (I tested it in Smash Bros Ultimate, plenty of times, without any disconnects.)

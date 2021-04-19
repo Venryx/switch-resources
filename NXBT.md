@@ -39,7 +39,7 @@ sudo apt-get upgrade -qy
 sudo apt-get install -qy git python3-pip libglib2.0-dev libhidapi-hidraw0 libhidapi-libusb0 libdbus-1-dev
 sudo pip3 install hid aioconsole crc8 dbus-python
 ```
-9) Get your Bluetooth adapter working within the Linux VM. (ie. Bluetooth icon showing in the VM's taskbar)  
+9) Get your Bluetooth adapter working within the Linux VM. (ie. Bluetooth icon showing in the Linux taskbar)  
 	9.1) Mark your Bluetooth adapter to be passed through to the Linux VM: mark/enable Devices->USB->YOUR_BLUETOOTH_ADAPTER. (I use the [ZEXMTE Bluetooth dongle](https://smile.amazon.com/gp/product/B0775YF36R), which shows up as "Cambridge Silicon Radio, Ltd CSR 8510 A10".)  
 	9.2) If Bluetooth fails to start within the VM, try some of the following:  
 	* Install the VirtualBox Extension Pack, from the [same page as VirtualBox](https://www.virtualbox.org/wiki/Downloads), then restart host PC. (Make sure to download the version matching your VirtualBox version.)

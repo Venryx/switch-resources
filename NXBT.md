@@ -1,4 +1,4 @@
-# NXBT
+# NXBT (working for Switch v12+)
 
 Context:
 * Switch firmware update 12.0.0 caused connection issues for all of the controller simulation/emulation solutions: [joycontrol (desktop)](https://github.com/mart1nro/joycontrol), [NXBT (desktop)](https://github.com/Brikwerk/nxbt), [JoyCon Droid (Android)](https://play.google.com/store/apps/details?id=com.rdapps.gamepad), [Switch Pro Controller (Android)](https://play.google.com/store/apps/details?id=com.moyck.switchpro)
